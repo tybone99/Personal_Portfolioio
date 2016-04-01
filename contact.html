@@ -5,12 +5,47 @@
     <title>contanct</title>
 </head>
 <body>
-<h2>
-    <li>
-        <a href="master.html"> <b>Back to main page</a>
-    </li>
-</h2>
-<<!-- this page will list all my contact info -->
+<header>
+<div title="homePage" class="imgWrap">
+    <a href="master.html"><img src="house_icon.svg" alt="HomePage" align="right" style="max-width:50px;margin-right:60px"></a><br><br>
+</div>
+</header>
+    <h1>
+        <div style="background:coral">Contact Me</div>
+    </h1>
+<!-- this page will list all my contact info -->
+<h3>Form</h3>
 
+<form method="get">
+    <label for="firstName">First Name</label><input id="firstname" name="firstName"><br><br>
+    <label for=lastName>Last Name</label><input id="lastname" name="lastName">
+    <label for="password">Password</label><input type="password" id="password" name="password"><br><br>
+    <select name="hobbies">
+        <option label="sports" value="1"></option>
+        <option label="gameing" value="2"></option>
+        <option label="webdev" value="3"></option>
+    </select>
+    <br><br>
+    Tell me about yourself:<br><br>
+    <textarea cols="40"rows="6"></textarea><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+</form>
+
+<section>
+    <h2>
+        <form name="colorForm" method="GET" action="mailto:tybone99@gmail.com">
+            <input type="submit" value="My email" style="padding:20px;font-size: 20pt;border:1px black"/>
+        </form>
+    </h2>
+    <h2>
+        <form name="colorForm" method="GET" action="mailto:tybone99@gmail.com">
+            <input type="submit" value="My email" style="padding:20px;font-size: 20pt;border:1px black"/>
+        </form>
+    </h2>
+    <h3>
+        <p align="right" style="margin-right: 60px">If you need to contact me</p>
+    </h3>
+</section>
 </body>
 </html>
