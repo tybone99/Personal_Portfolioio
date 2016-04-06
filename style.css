@@ -1,0 +1,14 @@
+body {
+    background-color:dodgerblue;
+}
+:valid{
+backgound:green;
+}
+lable:hover{
+    color:red;
+    opacity: 10;
+}
+label:hover{
+border:dotted;
+    color:darkred;
+}

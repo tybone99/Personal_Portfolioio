@@ -1,0 +1,19 @@
+ul {
+    min-width: 150px;
+    max-width: 300px;
+    box-shadow: black 11px 11px;
+    margin-right:777px;
+    margin-left:1px;
+    background:steelblue;
+    padding:33px;
+}
+ul:hover{
+    box-shadow:inset;
+}
+ul li{
+background:yellow;
+}
+li:hover{
+    border:dashed;
+    color:orange;
+}
