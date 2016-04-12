@@ -3,3 +3,8 @@
     font-family: 'Gloria Hallelujah', cursive;
     color:black;
 }
+.imgWrap:hover
+{
+    background-color:greenyellow;
+
+}
