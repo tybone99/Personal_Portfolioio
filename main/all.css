@@ -1,0 +1,28 @@
+.port
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    color:black;
+}
+.imgWrap:hover
+{
+
+
+}
+.smile
+{
+
+}
+
+@media screen and (max-width: 700px) {
+    .smile {
+        visibility: hidden;
+    }
+}
+.devil{
+
+ }
+@media screen and (min-width: 700px) {
+    .devil {
+        visibility: hidden;
+    }
+}
