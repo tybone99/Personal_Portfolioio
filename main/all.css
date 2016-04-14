@@ -13,7 +13,7 @@
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 899px) {
     .smile {
         visibility: hidden;
     }
@@ -21,8 +21,11 @@
 .devil{
 
  }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 899px) {
     .devil {
         visibility: hidden;
     }
+}
+body {
+    background-color:dodgerblue;
 }

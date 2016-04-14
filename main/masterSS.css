@@ -1,6 +1,6 @@
 ul {
-    min-width: 150px;
-    max-width: 300px;
+    min-width:200px;
+    max-width: 344px;
     box-shadow: black 11px 11px;
     margin-right:777px;
     margin-left:1px;
@@ -17,4 +17,7 @@ background:yellow;
 li:hover{
     border:dashed;
     color:orange;
+}
+body{
+    bACKground-color:dodgerblue;
 }
