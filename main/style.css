@@ -12,3 +12,15 @@ label:hover{
 border:dotted;
     color:darkred;
 }
+.email{
+    align-content: right;
+}
+.eml:hover{
+    border:dotted;
+    border-color: darkred;
+    color:darkred;
+}
+.size
+{
+width: 1000px;
+}

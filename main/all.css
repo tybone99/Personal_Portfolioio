@@ -13,7 +13,7 @@
 
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 739px) {
     .smile {
         visibility: hidden;
     }
@@ -21,11 +21,18 @@
 .devil{
 
  }
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 739px) {
     .devil {
         visibility: hidden;
     }
 }
 body {
     background-color:dodgerblue;
+}
+.foot{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:#4682B4;
 }

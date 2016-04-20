@@ -1,6 +1,7 @@
-.sc2{
-    position: relative;
-    display: inline-block;
+.sc2 {
+
+    position:  ;
+
 }
 
 .sc2c {
@@ -9,10 +10,33 @@
     background-color: gold;
     outline-style: solid;
     outline-color: green;
+    max-width: 400px;
     min-width: 160px;
     box-shadow: 10px 10px 22px 22px rgba(0,0,0,0.2);
     padding: 12px 16px;
 }
 .sc2:hover .sc2c{
     display: block;
+
+}
+
+.spaseing
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fak
+{
+
+}
+@media screen and (min-width:px) {
+    .fak{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width:px) {
+    .sc2 {
+        visibility: hidden;
+    }
 }

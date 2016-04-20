@@ -6,14 +6,14 @@
     animation-name:movement;
     animation-duration:5s;
     position: relative;
-    animation-iteration-count:
+
 }
 @keyframes movement {
     1% {background-color: red; left:1200px; top:0px;}
     50% {background-color: coral; left:0px; top:50px;}
     100%{background-color:green; left:100px; top:0px;}
 }
-.mydiv:hover
+.mydiv
 {
     background-color:gold;
     animation-name:hovermove;
@@ -50,4 +50,9 @@
     font-weight: bold;
     font-size: 5em;
     text-align: center;
+}
+.size
+{
+
+    font-size:100px;
 }
