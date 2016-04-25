@@ -1,13 +1,7 @@
-.sc2 {
-
-    position:  ;
-
-}
-
 .sc2c {
     display: none;
     position: absolute;
-    background-color: gold;
+    background-color: coral;
     outline-style: solid;
     outline-color: green;
     max-width: 400px;
@@ -25,18 +19,4 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.fak
-{
-
-}
-@media screen and (min-width:px) {
-    .fak{
-        visibility: hidden;
-    }
-}
-@media screen and (max-width:px) {
-    .sc2 {
-        visibility: hidden;
-    }
 }

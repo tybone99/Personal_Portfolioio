@@ -1,0 +1,30 @@
+hr.style-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+b{
+    color:black;
+    font-size:130%;
+}
+
+.textbox{
+    word-spacing:33px;
+}
+.middle
+{
+    align-content:center;
+}
+#colm {
+    margin-left:100px;
+    word-spacing:66px;
+    height:111px;
+    column-count: 3;
+}
+#colm li {
+display: inline-block; /*necessary*/
+}
+ul#colm{
+    list-style-type:square;
+}
